@@ -5,7 +5,7 @@ import { Eyebrow, Card } from "@/components/Eyebrow";
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
-      { title: "Impact OS Dashboard — Auxilium Max" },
+      { title: "Impact OS Dashboard — RS#01@26" },
       { name: "description", content: "Live operator view of beneficiaries, NGOs, grants and verified records across 14 markets." },
     ],
   }),
@@ -98,7 +98,7 @@ function Dashboard() {
                     <span>{m.label}</span><span className="text-gold">{m.pct}%</span>
                   </div>
                   <div className="mt-2 h-2 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full bg-gradient-to-r from-[var(--gold)] to-[oklch(0.7_0.15_60)]" style={{width:`${m.pct*2.2}%`}} />
+                    <div className="h-full bg-linear-to-r from-gold to-[oklch(0.7_0.15_60)]" style={{width:`${m.pct*2.2}%`}} />
                   </div>
                 </div>
               ))}
@@ -147,3 +147,5 @@ function Dashboard() {
     </div>
   );
 }
+
+

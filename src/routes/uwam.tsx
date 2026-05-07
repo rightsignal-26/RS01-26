@@ -94,15 +94,15 @@ function Uwam() {
           <div className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground">Joint Initiative</div>
           <div className="mt-4 grid md:grid-cols-3 gap-6">
             <div>
-              <div className="font-medium">Aries / Sora Source LLC</div>
+              <div className="font-medium">NovaBridge Systems LLC</div>
               <div className="text-xs text-muted-foreground">Creator · AI infrastructure · 35%</div>
             </div>
             <div>
-              <div className="font-medium">Auxilium Max Company Ltd</div>
+              <div className="font-medium">RS#01@26 Company Ltd</div>
               <div className="text-xs text-muted-foreground">Co-founder · Africa expansion · 25%</div>
             </div>
             <div>
-              <div className="font-medium">Platform Treasury</div>
+              <div className="font-medium">Helios Treasury Partners</div>
               <div className="text-xs text-muted-foreground">Onboarding · Adoption · 30% (+10% Affiliate)</div>
             </div>
           </div>
@@ -256,3 +256,5 @@ function Picker({ label, options, value, onChange }: { label: string; options: s
     </div>
   );
 }
+
+

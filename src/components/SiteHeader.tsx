@@ -20,7 +20,7 @@ export function SiteHeader() {
             A
           </div>
           <div className="leading-tight">
-            <div className="font-display text-base">Auxilium Max</div>
+            <div className="font-display text-base">RS#01@26</div>
             <div className="text-[10px] tracking-[0.25em] text-muted-foreground">IMPACT OS</div>
           </div>
         </Link>
@@ -51,7 +51,8 @@ export function SiteHeader() {
 export function SiteFooter() {
   return (
     <footer className="mt-32 border-t border-border/60 py-10 text-center text-xs tracking-[0.2em] text-muted-foreground uppercase">
-      Auxilium Max Company Ltd · Africa's Impact Operating System
+      RS#01@26 Company Ltd · Africa's Impact Operating System
     </footer>
   );
 }
+

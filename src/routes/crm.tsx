@@ -114,7 +114,7 @@ function CRM() {
             {fDeals.map(d => (
               <Card key={d.title} className="p-6">
                 <div className="flex flex-wrap gap-4 items-start">
-                  <div className="flex-1 min-w-[260px]">
+                  <div className="flex-1 min-w-65">
                     <div className="text-xs text-gold tracking-[0.2em] uppercase">{d.sector} · {d.stage}</div>
                     <div className="mt-2 text-xl">{d.title}</div>
                     <div className="text-xs text-muted-foreground mt-1">{d.country} · {d.role} · {d.who} · {d.ticket} ticket</div>
@@ -181,3 +181,4 @@ function Pill({ active, onClick, children }: { active: boolean; onClick: ()=>voi
     <button onClick={onClick} className={`text-xs px-3 py-1.5 rounded-full border transition ${active?"border-gold bg-gold text-primary-foreground":"border-border/60 hover:border-gold/50"}`}>{children}</button>
   );
 }
+

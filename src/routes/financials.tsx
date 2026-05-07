@@ -5,7 +5,7 @@ import { Eyebrow, Card } from "@/components/Eyebrow";
 export const Route = createFileRoute("/financials")({
   head: () => ({
     meta: [
-      { title: "Financials — Auxilium Max Impact OS" },
+      { title: "Financials — RS#01@26 Impact OS" },
       { name: "description", content: "Revenue trajectory from $1.2M to $14M by 2030 across SaaS, grant-share fees and XP marketplace." },
     ],
   }),
@@ -92,3 +92,4 @@ function Financials() {
     </div>
   );
 }
+

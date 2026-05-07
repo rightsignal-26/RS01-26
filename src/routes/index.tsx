@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Auxilium Max — Africa's Impact Operating System" },
+      { title: "RS#01@26 — Africa's Impact Operating System" },
       { name: "description", content: "Investor briefing · Series Seed 2026. Unified infrastructure for NGOs, institutions, and impact heroes across Africa." },
     ],
   }),
@@ -34,7 +34,7 @@ function Index() {
               <span className="italic gradient-gold-text">Operating System</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              A unified, intelligent infrastructure for NGOs, institutions, and social impact heroes — built and operated by Auxilium Max Company.
+              A unified, intelligent infrastructure for NGOs, institutions, and social impact heroes — built and operated by RS#01@26 Company.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link to="/dashboard" className="inline-flex items-center gap-2 rounded-md bg-gold text-primary-foreground px-5 py-3 text-sm font-medium hover:opacity-90 transition shadow-[var(--shadow-gold)]">
@@ -95,3 +95,4 @@ function Index() {
     </div>
   );
 }
+

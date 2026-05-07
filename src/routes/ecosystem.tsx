@@ -5,7 +5,7 @@ import { Eyebrow, SectionLabel, Card } from "@/components/Eyebrow";
 export const Route = createFileRoute("/ecosystem")({
   head: () => ({
     meta: [
-      { title: "Ecosystem — Auxilium Max Impact OS" },
+      { title: "Ecosystem — RS#01@26 Impact OS" },
       { name: "description", content: "Four-layer architecture, modules in production, and the beneficiary→investor pathway." },
     ],
   }),
@@ -109,3 +109,4 @@ function Ecosystem() {
     </div>
   );
 }
+
