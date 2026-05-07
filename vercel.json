@@ -1,10 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
   "buildCommand": "pnpm build",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/edge"
-    }
-  ]
+  "outputDirectory": "dist/client"
 }
